@@ -8,10 +8,11 @@ This project demonstrates how to generate a simple sales summary using SQL in Py
 - 📊 Display results using `print()` and a basic bar chart
 
 ## 📂 Files
-- `Sales_Data.ipynb` – Jupyter Notebook with all the code
+- `Sales_Data.ipynb` – Jupyter Notebook/Google Colab with all the code
 - `Dataset.csv` – Sample sales dataset
 - `Dataset.db` – SQLite database created within the notebook
 - `sales_chart.png` – Generated bar chart showing revenue by product
+- `summary_all_data.csv` – Exported summary of sales data in CSV format
 
 ## 📦 **Tools Used**
 - 🐍 [Python (3.x)](https://www.python.org/downloads/)
@@ -49,3 +50,9 @@ You can view it here: ![Revenue_per_Product](Sales_chart/Revenue_per_Product.png
 - Using **matplotlib** for simple bar chart visualization
 - Creating and working with a **lightweight SQLite database**
 - Basic data pipeline: **CSV → Database → SQL → DataFrame → Chart**
+
+## 💾 **Export and Clean Up**
+After generating the summary, the script exports the results to a CSV file stored in the `Final_data` folder:
+
+```python
+summary_df.to_csv("final_data/summary_all_data.csv", index=False)
