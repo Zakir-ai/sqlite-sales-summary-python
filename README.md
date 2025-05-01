@@ -41,7 +41,7 @@ Bar chart showing total revenue per product, generated using matplotlib.
 - The script creates the SQLite DB and table during runtime
 
 ## 📸 Sample Visualization
-The script generates a file named `sales_chart.png`.  
+The script generates a file named `Revenue_per_Product.png`.  
 You can view it here: ![Revenue_per_Product](Sales_chart/Revenue_per_Product.png)
 
 ## 🧠 Key Learnings
