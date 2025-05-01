@@ -3,22 +3,22 @@
 This project demonstrates how to generate a simple sales summary using SQL in Python, with results printed and visualized via matplotlib.
 
 ## ✅ Objective
-- Connect to a small SQLite database
-- Run SQL queries to summarize sales data
-- Display results using `print()` and a basic bar chart
+- 🔗 Connect to a small SQLite database
+- 📝 Run SQL queries to summarize sales data
+- 📊 Display results using `print()` and a basic bar chart
 
 ## 📂 Files
 - `Sales_Data.ipynb` – Jupyter Notebook with all the code
 - `Dataset.csv` – Sample sales dataset
-- `sales_data.db` – SQLite database created within the notebook
+- `Dataset.db` – SQLite database created within the notebook
 - `sales_chart.png` – Generated bar chart showing revenue by product
 
-## 📦 Tools Used
-- [Python (3.x)](https://www.python.org/downloads/)
-- [SQLite (via sqlite3)](https://sqlite.org/download.html)
-- [Pandas](https://pandas.pydata.org/)
-- [Matplotlib](https://matplotlib.org/stable/users/installing.html)
-- [Jupyter Notebook (via JupyterLab or Anaconda)](https://jupyter.org/install)
+## 📦 **Tools Used**
+- 🐍 [Python (3.x)](https://www.python.org/downloads/)
+- 🗄️ [SQLite (via sqlite3)](https://sqlite.org/download.html)
+- 🔢 [Pandas](https://pandas.pydata.org/)
+- 📊 [Matplotlib](https://matplotlib.org/stable/users/installing.html)
+- 💻 [Jupyter Notebook (via JupyterLab or Anaconda)](https://jupyter.org/install)
 
 ## 🛠 Features
 - Create and populate SQLite database from CSV
